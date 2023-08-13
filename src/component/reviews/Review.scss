@@ -5,16 +5,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 108px;
-  justify-content: center;
+  // gap: 108px;
+
   .heading {
-    // margin-top: 69px;
+    padding-top: 69px;
+    margin-bottom: 108px;
     color: #fff;
     font-family: Epilogue;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 500;
   }
   .review-body {
     display: flex;

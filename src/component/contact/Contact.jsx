@@ -37,7 +37,7 @@ const Contact = () => {
           <div className="text">
             <h3>Let’s have a talk</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <img src={linkdinImg} alt="" />
+            {/* <img src={linkdinImg} alt="" /> */}
           </div>
           <img src={contactImg} alt="" />
         </div>
