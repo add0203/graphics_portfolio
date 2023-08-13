@@ -69,9 +69,9 @@ const Navbar2 = () => {
               <Link className="link" to="/review">
                 <span>Review</span>
               </Link>
-              <Link className="link" to="/messages">
+              {/* <Link className="link" to="/messages">
                 Messages
-              </Link>
+              </Link> */}
             </div>
           )}
         </div>
