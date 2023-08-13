@@ -40,22 +40,18 @@ const Navbar = () => {
         </div>
         <div className="link">
           <Link className="link" to="/">
-            {" "}
             <span>About</span>
           </Link>
           <Link className="link" to="/work">
             <span>Work</span>
           </Link>
-          <Link className="link" to="contact">
-            {" "}
+          <Link className="link" to="/contact">
             <span>Contact</span>
           </Link>
           <Link className="link" to="/services">
-            {" "}
             <span>Services</span>
           </Link>
           <Link className="link" to="/review">
-            {" "}
             <span>Review</span>
           </Link>
           {currentUser && (
@@ -64,7 +60,7 @@ const Navbar = () => {
               {/* <span>🍔</span> */}
               {open && (
                 <div className="options">
-                  <Link className="link" to="/">
+                  <Link className="link" to="/about">
                     About
                   </Link>
                   <Link className="link" to="/work">

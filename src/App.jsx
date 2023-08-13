@@ -3,6 +3,7 @@ import "./App.scss";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Footer from "../src/component/footer/Footer";
 import Navbar from "../src/component/navbar/Navbar";
+import Navbar2 from "../src/component/navbar2/Navbar2";
 import Home from "./component/home/Home";
 import Services from "./component/services/Services";
 import Work from "./component/work/Work";
@@ -13,7 +14,7 @@ function App() {
   const Layout = () => {
     return (
       <div className="app">
-        <Navbar />
+        <Navbar2 />
         <Outlet />
         <Footer />
       </div>
