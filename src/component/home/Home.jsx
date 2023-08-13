@@ -16,9 +16,11 @@ const Home = () => {
               <h3>Graphics Design | UI/UX</h3>
             </div>
             <div className="my-name">
-              <h1>Hi, I am Anand...</h1>
+              <h1>Hello, I am Anand...</h1>
             </div>
-            <div className="desc">Newbie crafting freelance Graphics.</div>
+            <div className="desc">
+              Newbie crafting freelance<br></br>Graphics.
+            </div>
           </div>
         </div>
         <div className="right">
