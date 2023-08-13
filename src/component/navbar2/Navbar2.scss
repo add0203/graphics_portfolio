@@ -137,6 +137,18 @@
         gap: 10px;
         width: 200px;
         font-weight: 300;
+        .link {
+          color: #fff;
+          text-align: center;
+          font-family: Epilogue;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 30px; /* 150% */
+          &:hover .text {
+            color: #e7e6e6;
+          }
+        }
       }
     }
   }
