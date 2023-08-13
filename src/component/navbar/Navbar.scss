@@ -1,0 +1,111 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  color: white;
+  background-color: #3f3d56;
+  // for smooth Scroll in navbar is :
+  transition: 0.5s all ease;
+  // to make nav bar stick at the top we use
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100vw;
+  &.active {
+    background-color: #3f3d56;
+    color: white;
+  }
+  .container {
+    width: 80%;
+    display: flex;
+    // position: relative;
+    justify-content: space-between;
+    padding: 15px 0px;
+    .logo {
+      display: flex;
+      color: #fff;
+      text-align: center;
+      font-family: Epilogue;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 150% */
+      .text {
+        font-weight: bold;
+        font-family: "Epilogue", sans-serif;
+      }
+    }
+    .link {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      font-family: Epilogue;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px; /* 150% */
+
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+      }
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .options {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        padding: 20px;
+        background-color: #3f3d56;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        gap: 10px;
+        width: 200px;
+        font-weight: 300;
+      }
+      //   button {
+      //     font-weight: 500;
+      //     font-family: "Montserrat", sans-serif;
+      //     color: white;
+      //     padding: 10px 20px;
+      //     border-radius: 5px;
+      //     background-color: transparent;
+      //     border: 1px solid black;
+      //     cursor: pointer;
+      //     &:hover {
+      //       background-color: #1dbf73;
+      //       border-color: #1dbf73;
+      //     }
+      //   }
+    }
+  }
+  hr {
+    width: 100%;
+    height: 0;
+    border: 0.5 solid black;
+    color: lightgray;
+  }
+  //   .menu {
+  //     font-family: "Montserrat", sans-serif;
+  //     width: 1200px;
+  //     display: flex;
+  //     justify-content: space-between;
+  //     padding: 5px 0px;
+  //     color: gray;
+  //     font-weight: 300;
+  //   }
+}

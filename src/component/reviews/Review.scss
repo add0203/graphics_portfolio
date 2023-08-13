@@ -1,0 +1,23 @@
+.review-container {
+  width: 100vw;
+  height: 650px;
+  background: #a259ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 108px;
+  justify-content: center;
+  .heading {
+    // margin-top: 69px;
+    color: #fff;
+    font-family: Epilogue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .review-body {
+    display: flex;
+    gap: 110px;
+  }
+}

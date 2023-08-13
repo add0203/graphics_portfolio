@@ -1,0 +1,33 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 120px;
+  background-color: rgb(243, 243, 243);
+
+  // background-color: gray;
+  .top {
+    width: 1303px;
+    height: 38px;
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    flex-shrink: 0;
+    img {
+      width: 24px;
+      height: 24px;
+      color: #313131;
+    }
+  }
+  .bottom {
+    width: 1303px;
+    height: 38px;
+    justify-content: center;
+    color: #313131;
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 20px;
+  }
+}

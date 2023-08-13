@@ -1,0 +1,30 @@
+.work-container {
+  width: 100vw;
+  height: 1088px;
+  background: #f2cb04;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  .heading {
+    color: var(--black, #2d2d2d);
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 72px;
+  }
+  .work-body {
+    // width: 250px;
+    height: 367px;
+    gap: 46px 180px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 101px;
+
+    // flex-wrap: wrap-reverse;
+  }
+}
