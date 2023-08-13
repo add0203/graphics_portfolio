@@ -39,7 +39,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="link">
-          <Link className="link" to="/home">
+          <Link className="link" to="/">
             {" "}
             <span>About</span>
           </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
               {/* <span>🍔</span> */}
               {open && (
                 <div className="options">
-                  <Link className="link" to="/about">
+                  <Link className="link" to="/">
                     About
                   </Link>
                   <Link className="link" to="/work">
