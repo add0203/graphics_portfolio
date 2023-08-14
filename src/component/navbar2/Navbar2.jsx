@@ -36,6 +36,9 @@ const Navbar2 = () => {
         </div>
       </div>
       <div className="left">
+        <Link className="nav-link" to="/">
+          <span className="text">Home</span>
+        </Link>
         <Link to="/work" className="nav-link">
           <span className="text">Work</span>
         </Link>
