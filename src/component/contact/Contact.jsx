@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
 import "./Contact.scss";
-import linkdinImg from "../../assets/image/linkedin.png";
+// import linkdinImg from "../../assets/image/linkedin.png";
+// import emailjs from "@emailjs/browser";
 import contactImg from "../../assets/image/messagesSvg.svg";
-import emailjs from "@emailjs/browser";
+import contactImg2 from "../../assets/image/contactImg2.png";
 
 const Contact = () => {
   // const formRef = useRef;
@@ -39,7 +40,8 @@ const Contact = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             {/* <img src={linkdinImg} alt="" /> */}
           </div>
-          <img src={contactImg} alt="" />
+          <img src={contactImg} alt="" className="wide-contact" />
+          <img src={contactImg2} alt="" className="mobile-contact" />
         </div>
       </div>
       <div className="right">

@@ -1,6 +1,7 @@
 .services-container {
   display: flex;
   flex-direction: column;
+  // background-color: rgb(124, 53, 53);
   width: 100vw;
 
   .upper {
@@ -9,7 +10,7 @@
     align-items: center;
     gap: 122px;
     padding: 28px 0px;
-    background-color: rgb(243, 243, 243);
+    // background-color: rgb(243, 243, 243);
     img {
       width: 60px;
       height: 60px;
@@ -17,12 +18,14 @@
   }
   .below {
     height: 388px;
-    background: #0468be;
+    background-color: #0468be;
     display: flex;
     justify-content: center;
     gap: 207px;
+    // overflow-x: hidden;
     .service {
       margin: 92px 0px;
+      // max-width: 100%;
       .img {
         background-color: white;
         border-radius: 15px;
@@ -54,6 +57,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
     .upper {
       background-color: transparent;
       display: flex;
@@ -66,20 +70,19 @@
       }
     }
     .below {
+      background-color: #0468be;
       display: flex;
       flex-direction: column;
-      // background-color: gray;
-      width: 100%;
       height: auto;
-      padding: 0px 112px 70px 112px;
+      padding: 0px 130px 70px 130px;
       justify-content: center;
-
-      // justify-content: ;
       align-items: center;
       gap: 0px;
+      margin: 0px;
 
       .service {
         // margin: 47px 112px;
+        background-color: red;
         width: 165px;
         height: 165px;
         // flex-shrink: 0;
