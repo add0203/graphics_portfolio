@@ -28,3 +28,15 @@
     // flex-wrap: wrap-reverse;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .work-container {
+    width: 100%;
+    height: 1000px;
+    overflow-y: scroll;
+    .heading {
+    }
+    .work-body {
+    }
+  }
+}

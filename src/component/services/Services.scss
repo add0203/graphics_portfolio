@@ -68,11 +68,12 @@
     .below {
       display: flex;
       flex-direction: column;
-      background-color: gray;
+      // background-color: gray;
       width: 100%;
       height: auto;
+      padding: 0px 112px 70px 112px;
+      justify-content: center;
 
-      padding: 10px 112px 0px 112px;
       // justify-content: ;
       align-items: center;
       gap: 0px;
@@ -80,12 +81,13 @@
       .service {
         // margin: 47px 112px;
         width: 165px;
-        height: 211px;
+        height: 165px;
         // flex-shrink: 0;
         img {
-          width: 165px;
-          height: 165px;
+          width: 130px;
+          height: 130px;
         }
+        margin-bottom: 0px;
       }
       h3 {
         color: var(--black, #2d2d2d);
