@@ -55,6 +55,9 @@
         height: 24px;
         color: #313131;
       }
+      &:hover img {
+        box-shadow: rgba(2, 116, 230, 0.2) 0px 8px 24px;
+      }
     }
     .bottom {
       word-wrap: normal;
@@ -64,7 +67,7 @@
       color: #313131;
       text-align: center;
       font-family: Epilogue;
-      font-size: 20px;
+      font-size: 15px;
       line-height: 35px;
     }
   }
