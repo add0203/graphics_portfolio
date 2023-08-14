@@ -64,10 +64,10 @@ const Navbar2 = () => {
                 Contact
               </Link>
               <Link className="link" to="/services">
-                <span>Services</span>
+                Services
               </Link>
               <Link className="link" to="/review">
-                <span>Review</span>
+                Reviews
               </Link>
               {/* <Link className="link" to="/messages">
                 Messages

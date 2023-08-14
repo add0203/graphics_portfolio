@@ -28,9 +28,9 @@ const Footer = () => {
           href="https://anand-dhar-dwivedi.vercel.app/"
           style={{ textDecoration: "none", color: "#313131" }}
         >
-          Anand Dhar Dwivedi
+          Anand Dhar Dwivedi -
         </a>{" "}
-        - Copyright ©️ 2023
+        Copyright ©️ 2023
       </div>
     </div>
   );

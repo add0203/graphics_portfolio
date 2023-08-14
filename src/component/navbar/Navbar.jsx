@@ -45,7 +45,7 @@ const Navbar = () => {
           <Link className="link" to="/work">
             <span>Work</span>
           </Link>
-          <Link className="link" to="/contact">
+          <Link className="link" to="contact">
             <span>Contact</span>
           </Link>
           <Link className="link" to="/services">

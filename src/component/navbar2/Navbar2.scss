@@ -41,6 +41,7 @@
     flex: 1;
     display: flex;
     flex-direction: row;
+
     justify-content: center;
     margin-left: 72px;
     gap: 45px;
@@ -63,11 +64,13 @@
 }
 @media screen and (max-width: 480px) {
   .Navbar {
+    background-color: #3f3d56;
+    transition: 0.5s all ease;
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 73px;
-    background-color: #3f3d56;
+    z-index: 999;
+    height: auto;
     color: white;
     &.active {
       background-color: #3f3d56;
@@ -103,7 +106,7 @@
       flex: 1;
       display: flex;
       align-items: center;
-      // gap: 24px;
+      gap: 24px;
       position: relative;
       color: #fff;
       text-align: center;
@@ -112,7 +115,7 @@
       font-style: normal;
       font-weight: 500;
       line-height: 30px; /* 150% */
-      margin: 16px 0px 16px 140px;
+      margin: 16px 20px 16px 140px;
       .user {
         display: flex;
         align-items: center;
@@ -125,8 +128,8 @@
       }
       .options {
         position: absolute;
-        top: 50px;
-        right: 0;
+        top: 60px;
+        right: 100px;
         padding: 20px;
         background-color: #3f3d56;
         border-radius: 10px;
@@ -136,14 +139,14 @@
         color: gray;
         gap: 10px;
         width: 200px;
-        font-weight: 300;
+        // font-weight: 300;
         .link {
           color: #fff;
           text-align: center;
           font-family: Epilogue;
           font-size: 20px;
           font-style: normal;
-          font-weight: 600;
+          font-weight: 500;
           line-height: 30px; /* 150% */
           &:hover .text {
             color: #e7e6e6;

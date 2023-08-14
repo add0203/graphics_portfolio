@@ -166,23 +166,33 @@
       flex: 1;
       display: flex;
       flex-direction: column;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      margin-right: 0px;
+      margin-left: 0px;
 
       .input {
         width: 390px;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        gap: 20px;
         // height: 844px;
 
         flex-shrink: 0;
         input {
-          width: 303.62px;
-          height: 43.107px;
+          width: 350px;
+          height: 45px;
         }
         textarea {
-          width: 303.62px;
-          height: 99.957px;
+          width: 350px;
+          height: 100px;
         }
         button {
-          width: 124.947px;
-          height: 43.107px;
+          padding: 15px;
+          // width: 350px;
+          // height: 43.107px;
         }
       }
     }

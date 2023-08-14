@@ -6,7 +6,7 @@ import contactImg from "../../assets/image/messagesSvg.svg";
 import contactImg2 from "../../assets/image/contactImg2.png";
 
 const Contact = () => {
-  // const formRef = useRef;
+  const formRef = useRef;
   // const [done, setDone] = useState(false);
   // const handleSubmit = (e) => {
   //   // prevent submit button to reload the page
@@ -46,19 +46,19 @@ const Contact = () => {
       </div>
       <div className="right">
         <div className="input">
-          {/* <form ref={formRef} onSubmit={handleSubmit}> */}
-          <input type="text" placeholder="Name" name="user_name" required />
-          <input type="email" placeholder="Email" name="user_name" required />
-          <textarea
-            placeholder="Type your message here"
-            name="message"
-            rows="5"
-            required
-          ></textarea>
-          <button>Submit</button>
-          {/* <br></br> */}
-          {/* {done && "  Email Send, Thank You 😊"} */}
-          {/* </form> */}
+          <form className="input">
+            <input type="text" placeholder="Name" name="user_name" required />
+            <input type="email" placeholder="Email" name="email" required />
+            <textarea
+              placeholder="Type your message here"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit">Submit</button>
+            {/* <br></br> */}
+            {/* {done && "  Email Send, Thank You 😊"} */}
+          </form>
         </div>
       </div>
     </div>
