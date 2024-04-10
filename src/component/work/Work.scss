@@ -1,11 +1,56 @@
+// .work-container {
+//   width: 100vw;
+//   height: 1088px;
+//   background: #f2cb04;
+//   display: flex;
+//   flex-direction: column;
+//   // justify-content: center;
+//   align-items: center;
+//   .heading {
+//     color: var(--black, #2d2d2d);
+//     text-align: center;
+//     font-family: Epilogue;
+//     font-size: 32px;
+//     font-weight: 600;
+//     padding-top: 72px;
+//   }
+//   .work-body {
+//     // width: 250px;
+//     height: 367px;
+//     gap: 46px 180px;
+//     width: 80%;
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//     margin-top: 101px;
+
+//     // flex-wrap: wrap-reverse;
+//   }
+// }
+
+// @media screen and (max-width: 480px) {
+//   .work-container {
+//     width: 100vw;
+//     height: 1000px;
+//     overflow-y: scroll;
+//     .heading {
+//     }
+//     .work-body {
+//     }
+//   }
+// }
+
+
 .work-container {
   width: 100vw;
+
   height: 1088px;
   background: #f2cb04;
   display: flex;
   flex-direction: column;
   // justify-content: center;
   align-items: center;
+
   .heading {
     color: var(--black, #2d2d2d);
     text-align: center;
@@ -30,12 +75,29 @@
 
 @media screen and (max-width: 480px) {
   .work-container {
-    width: 100vw;
-    height: 1000px;
-    overflow-y: scroll;
+    // width: 100vw;
+    // height: 1000px;
+    // // height: 100vh;
+    // // width: fit-content;
+    // // height: fit-content;
+    // // block-size: fit-content;
+    // overflow-y: scroll;
+    width: 100vw; /* Take up full viewport width */
+    height: auto; /* Let the height adjust dynamically based on content */
+    // overflow-y: auto; /* Add vertical scrollbar if content overflows */
     .heading {
     }
     .work-body {
+      // width: 250px;
+      height: auto;
+      gap: 46px 180px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 101px;
+
+      // flex-wrap: wrap-reverse;
     }
   }
 }
