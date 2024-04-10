@@ -4,6 +4,8 @@ import linkImg from "../../assets/image/linkedin.svg";
 import twitterImg from "../../assets/image/twitter.svg";
 import instaImg from "../../assets/image/instagram.svg";
 import gitImg from "../../assets/image/github.svg";
+import figImg from "../../assets/image/figma.svg";
+
 
 const Footer = () => {
   return (
@@ -20,6 +22,9 @@ const Footer = () => {
         </a>
         <a href="https://github.com/add0203">
           <img src={gitImg} alt="" />
+        </a>
+         <a href="https://www.figma.com/@ananddhar">
+          <img src={figImg} alt="" />
         </a>
       </div>
       <div className="bottom">
